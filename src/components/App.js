@@ -1,9 +1,9 @@
 import React from 'react'
-
+import Order from './Orderlist'
 const App = () => {
   return (
     <div id="main">
-               {/* Do not remove the main div */}
+        <Order/>
     </div>
   )
 }
